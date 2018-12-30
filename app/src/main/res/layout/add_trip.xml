@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.adeshbedre.myapplication.HomeActivity" >
+
+
+    <TextView
+        android:text="Trip Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/trip_name" />
+
+    <EditText
+        android:id="@+id/tripNameText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+
+    <TextView
+        android:text="member1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Member1" />
+
+    <EditText
+        android:id="@+id/memberText1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
+        android:text="member2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/member2" />
+
+    <EditText
+        android:id="@+id/memberText2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+
+    <TextView
+        android:text="member3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/member3" />
+
+    <EditText
+        android:id="@+id/memberText3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
+        android:text="member3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:id="@+id/memberText4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+
+</LinearLayout>

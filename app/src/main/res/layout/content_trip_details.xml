@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:showIn="@layout/activity_trip_details"
+    android:id="@+id/linearLayout">
+
+    <RelativeLayout android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/relative">
+
+
+        <EditText
+            android:id="@+id/tripNameText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAlignment="center"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="12dp"
+            android:layout_marginEnd="12dp" />
+
+        <TextView
+            android:text="Trip Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/trip_name"
+            android:textAlignment="center"
+            android:paddingTop="100px"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="31dp"
+            android:layout_alignRight="@+id/tripNameText"
+            android:layout_alignEnd="@+id/tripNameText" />
+
+
+    </RelativeLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:text="Button"
+            android:layout_width="336dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:onClick="insertIntoDb"
+            tools:gravity="bottom|clip_horizontal|end"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="96dp" />
+    </android.support.constraint.ConstraintLayout>
+
+
+</LinearLayout>
